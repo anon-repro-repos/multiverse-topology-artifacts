@@ -8,7 +8,7 @@ In order to run the analyses of the paper without rerunning the multiverse pipel
 Leaf locations with an asterisk indicate the presence of data artifacts
 ```text
 ├── config
-│   └── datasets
+│   └── datasets*
 │       ├── NF-CICIDS2018-v3.yml
 │       ├── NF-ToN-IoT-v3.yml
 │       └── NF-UNSW-NB15-v3.yml
