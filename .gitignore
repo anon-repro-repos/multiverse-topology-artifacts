@@ -1,0 +1,43 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# venvs
+.venv/
+.venv-*/
+
+# uv
+.uv/
+uv.lock
+uv.lock.bak
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Slurm related
+.slurm/
+*.sbatch
+
+# Reproducibility artifacts are included
+## Data artifacts
+#/data/**
+#!/data/**/
+#!/data/**/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# notebook files
+*.ipynb
+
+# Build outputs
+build/
+dist/
+*.egg-info/
