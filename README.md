@@ -6,7 +6,7 @@ In order to run the analyses of the paper without rerunning the multiverse pipel
 
 ## Project Structure
 Leaf locations with an asterisk indicate the presence of data artifacts
-
+```text
 ├── config
 │   └── datasets
 │       ├── NF-CICIDS2018-v3.yml
@@ -57,6 +57,6 @@ Leaf locations with an asterisk indicate the presence of data artifacts
 │       ├── plots.py
 │       └── utils_analyses_plots.py
 └── README.md
-
+```
 ## CLI commands to reproduce the paper results
 ds
